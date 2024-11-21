@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "sentries:block/defense_core"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"schemaVersion": 1,
+	"id": "datagen",
+	"version": "dev",
+
+	"entrypoints": {
+		"fabric-datagen": [ "com.sindercube.sentries.datagen.SentriesDataGenerator" ]
+	}
+}
