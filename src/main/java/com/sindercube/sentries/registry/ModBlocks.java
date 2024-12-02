@@ -3,6 +3,7 @@ package com.sindercube.sentries.registry;
 import com.sindercube.sentries.Sentries;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.HeavyCoreBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -16,8 +17,9 @@ public class ModBlocks {
     public static void init() {}
 
     public static final Block DEFENSE_CORE = register("defense_core", new Block(AbstractBlock.Settings.create()));
+	public static final Block CANNON_BALL = register("cannon_ball", new HeavyCoreBlock(AbstractBlock.Settings.create()));
 
-    private static Block register(String path, Block block) {
+	private static Block register(String path, Block block) {
         Identifier id = Sentries.of(path);
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, id);
         Registry.register(Registries.BLOCK, key, block);

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/heavy_core",
+	"textures": {
+		"all": "sentries:block/cannon_ball",
+		"particle": "sentries:block/cannon_ball"
+	}
+}

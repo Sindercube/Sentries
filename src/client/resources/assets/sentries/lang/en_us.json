@@ -1,1 +1,6 @@
-{}
+{
+	"block.sentries.defense_core": "Defense Core",
+	"block.sentries.cannon_ball": "Cannon Ball",
+
+	"entity.sentries.cannon": "Cannon"
+}

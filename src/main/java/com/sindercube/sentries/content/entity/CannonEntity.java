@@ -5,8 +5,8 @@ import net.minecraft.world.World;
 
 public class CannonEntity extends SentryEntity {
 
-    public CannonEntity(EntityType<?> type, World world) {
-        super(type, world);
-    }
+	public CannonEntity(EntityType<? extends CannonEntity> entityType, World world) {
+		super(entityType, world);
+	}
 
 }
